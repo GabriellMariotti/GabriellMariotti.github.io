@@ -3,52 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Gabriel Lima</title>
 </head>
 <body>
-    <img src="file.jpg" alt="Profile">
-    <h1>Gabriel Lima</h1>
-    <p>Sofware Developer | Flutter | Node.Js | Python | HTML</p>
 
-    <h2>About me</h2>
-    <p>Hey, my name is Gabriel, and I'm a computer systems management and programming student in the 12th grade. I am currently developing an app using Flutter, Node.js, Git, and GitHub for my final professional aptitude project. Since I was a child, I've always liked technology. My first contact with programming was when I was 15 years old, writing my first 'hello world,' and today, at 18, I'm looking for opportunities to develop my soft and hard skills.</p>
+    <header>
+        <h1>Gabriel Lima</h1>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Experience</a>
+            <button class="buttonContact">contact me!</button>
+        </nav>
+    </header>
 
-    <h2>Experience</h2>
-    <p><strong>Developer</strong><br>Real Tronik <br>April 2024 - May 2024 <br>Slovenia</p>
+    <main>
+        <section class="banner">
+            <article class="bannerleft">
+                <aside class="bannerText">
+                    <h1>
+                        <span class="span1">I am Gabriel</span> <br>
+                        <span class="span2">Mobile Developer</span>
+                    </h1>
+                    <br>
+                    <p class="conteudoBanner">I'm a young mobile developer with <br>great passion for this area of ​solving <br>big problems with simple solutions.
+                    </p>
+                    
+                </aside>
+                <aside class="bannerButton">
+                    <a class="downloadButton">Download CV<i class="material-icons">file_download</i></a>
+                    <a class="buttonLink"><i class="fa fa-github"></i></a>
+                    <a class="buttonLink"><i class="fa fa-linkedin"></i></a>
+                </aside>
+            </article>
+            <article class="bannerRight">
+                <img src="img/Ellipse 2.png" alt="Eclipse" class="imgEclipse">
+                <img src="img/profilePicture.png" alt="Profile Picture" class="imgProfile">
+            </article>
+        </section>
+        
+        <section class="about">
+            <article class="aboutLeft">
+                <img src="img/Journey.png" alt="Journey">
+            </article>
+            <article class="aboutRight">
+                <aside class="whoAbout">
+                    <aside class="whoIam">
+                        <h2>Who am I?</h2>
+                    </aside>
+                    <p class="conteudoAbout">Hey, my name is Gabriel, and I'm a computer systems management and programming student in the <br>12th grade. I am currently developing an app using Flutter, Node.js, Git, and GitHub for my final <br>professional aptitude project. Since I was a child, I've always liked technology. My first contact with <br>programming was when I was 15 years old, writing my first 'hello world,' and today, at 18, I'm looking <br>for opportunities to develop my soft and hard skills.</p>
+                </aside>
+                <aside class="skillsAbout">
+                    <aside class="titleSkills">
+                        <h2>My skills</h2>
+                    </aside>
+                    <aside class="imgLogo">
+                        <img src="img/logoFlutter.png" alt="Flutter logo" class="imgSkills">
+                        <img src="img/logoJava.png" alt="Java logo" class="imgSkills">
+                        <img src="img/logoNode.png" alt="Node logo" class="imgSkills">
+                        <img src="img/logoHTMLCSSJS.png" alt="HTML CSS JS logo" class="imgSkills">
+                    </aside>
+                </aside>
+            </article>
+        </section>
 
-    <h2>Education</h2>
-    <p><strong>Management and programming of computer systems</strong><br>Escola Profissional de braga <br>2022 - 2025</p>
+        <section class="projects">
+            <aside class="titleProjects">
+                <h2>Projects</h2>
+            </aside>
+            <article class="conteudoProjects">
+                <aside class="blocoProjects">
+                    <img src="img/snakeGame.png" alt="Snake Game">
+                    <h3>Snake Game</h3>
+                    <p>Python</p>
+                </aside>
+                <aside class="blocoProjects">
+                    <img src="img/portfolio.png" alt="Portfolio">
+                    <h3>Portfolio</h3>
+                    <p>HTML and CSS</p>
+                </aside>
+                <aside class="blocoProjects">
+                    <img src="img/realTronik.png" alt="Real Tronik app">
+                    <h3>Real Tronik App</h3>
+                    <p>Flutter and FireBase</p>
+                </aside>
+            </article>
+        </section>
+        <section class="experience">
+            <aside class="titleExperience">
+                <h2>Experience</h2>
+            </aside>
+            <article class="conteudoExperience">
+                <aside class="leftExperience">
+                    <img src="img/Professional.png" alt="Professional experience">
+                </aside>
+                <aside class="rightExperience">
+                    <img src="img/Volunteering.png" alt="Volunteering experience">
+                </aside>
+            </article>
+        </section>
+    </main>
 
-    <h2>Projects</h2>
-    <p><strong>Snake Game</strong><br>Tools: Python</p>
-    <p><strong>Mobile application for internal management of company tasks and human resources</strong><br>Tools: Flutter, Node.js, Figma</p>
-
-    <table border="1">
-        <tr>
-            <th>Project</th>
-            <th>Type</th>
-            <th>Tools</th>
-        </tr>
-        <tr>
-            <td>Snake Game</td>
-            <td>Desktop</td>
-            <td>Python</td>
-        </tr>
-        <tr>
-            <td>Real Tronik App</td>
-            <td>Mobile</td>
-            <td>Dart/Flutter, Node.Js, Figma</td>
-        </tr>
-        <tr>
-            <td>portfolio</td>
-            <td>WebSite</td>
-            <td>HTML and CSS</td>
-        </tr>
-    </table>
-
-    <h2>Contact-me</h2>
-    <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav">Access my Linkedin profile</a>
-    <br>
-    <a href="https://github.com/GabriellMariotti">Acces my GitHub profile</a>
+    <footer>
+        <h2>Desenvolvido por Gabriel Lima</h2>
+    </footer>
 </body>
 </html>

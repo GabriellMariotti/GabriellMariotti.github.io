@@ -1,0 +1,287 @@
+:root{
+    --corText: #ffffff;
+    --corBanner1: #3D0087;
+    --corBanner2: #0F0021;
+    --corBanner3: #2D0063;
+    --corBanner4: #080012;
+    
+    --fontConteudo: "Roboto", sans-serif;;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-family: "Noto Sans", sans-serif;
+    color: var(--corText);
+}
+
+h2{
+    font-family: "Noto Sans", sans-serif;
+    color: var(--corText);
+    font-size: 48px;
+}
+
+h3{
+    font-family: "Noto Sans", sans-serif;
+    color: var(--corText);
+    font-size: 20px;
+}
+
+p{
+    font-family: var(--fontConteudo);
+    color: var(--corText);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--corBanner2);  
+    height: 100px;
+    position: relative;
+    border: none;
+}
+
+header > h1{
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+
+nav{
+    margin-right: 150px;
+    background-color: #0F0021;
+}
+
+nav > a{
+    font-family: var(--fontConteudo);
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--corText);
+    padding-right: 120px;
+}
+
+nav > button{
+    text-decoration: none;
+    color: var(--corBanner3);
+
+}
+
+nav > a:hover{
+    color: #3D0087;
+}
+
+.buttonContact{
+    height: 43px;
+    width: 200px;
+    align-items: center;
+    background-color: var(--corText);
+    text-decoration: none;
+    font-family: var(--fontConteudo);
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--corBanner3);
+    border-radius: 5px;
+    border: var(--corText);
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction: row;
+    background-image: linear-gradient(to top right, var(--corBanner4)57%, var(--corBanner3));
+    height: 980px;
+}
+
+.bannerleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 566px;
+    height: 356px;
+    margin-top: 238px;
+    margin-left: 150px;
+
+    
+}
+
+.span1{
+    color: var(--corText);
+    font-size: 36px;
+}
+
+.span2{
+    background: -webkit-linear-gradient(right, var(--corText), var(--corBanner1)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 64px;
+    
+
+}
+
+.conteudoBanner{
+    color: var(--corText);
+    font-family: var(--fontConteudo);
+    font-size: 20px;
+    margin-top: 0px;
+
+}
+
+.bannerButton{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.downloadButton{
+    border: 1px solid var(--corBanner1);
+    background-color: transparent;
+    border-radius: 30px;
+    color: var(--corBanner1);
+    padding: 0px 15px;
+    height: 50px;
+    width: 160px;
+    font-family: var(--fontConteudo);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonLink{
+    color: var(--corBanner1);
+    font-size: 25px;
+    border: 1px solid var(--corBanner1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannerRight{
+    position: relative;
+    width: 535.46px;
+    height: 560px;
+    margin-top: 68px;
+    margin-right: 150px;
+    
+}
+
+.imgProfile{
+    position: absolute;
+    left: 38px;
+    top: 0px;
+    
+
+}
+
+.imgEclipse{
+    position: relative;
+    left: 6.29px;
+    top: 164.9px;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 1080px;
+    background-color: var(--corBanner4);
+    
+}
+
+.aboutRight{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+.conteudoAbout{
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+.whoIam{
+    display: flex;
+    justify-content: center;
+}
+
+.titleSkills{
+    display: flex;
+    justify-content: center;
+}
+
+.imgLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.imgSkills {
+    width: 200px; 
+    height: 220px; 
+    border-radius: 20px; 
+    border: 1px solid transparent;
+    border-image: linear-gradient(to top, var(--corBanner1), var(--corText)); 
+    border-image-slice: 1; 
+    object-fit: contain; 
+    padding: 20px;
+}
+
+.projects{
+    background-color: var(--corBanner4);
+    height: 1080px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.titleProjects{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.conteudoProjects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.experience{
+    background-color: var(--corBanner4);
+    height: 1080px;
+}
+
+.titleExperience{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.conteudoExperience{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer{
+    background-color: var(--corBanner2);
+}
