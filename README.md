@@ -1,1 +1,1 @@
-# Redes22
+Display: 1920x1080
